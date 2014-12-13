@@ -1,0 +1,50 @@
+<resources>
+
+    <string name="app_name">MyPrinter</string>
+    <string name="menu_exit">退出</string>
+    <string name="fontsize">字体大小</string>
+    <string name="fontsize_12x24">12x24</string>
+    <string name="fontsize_9x17">9x17</string>
+    <string name="darkness">浓度</string>
+    <string name="scaletimes">放大倍数</string>
+    <string name="width">宽</string>
+    <string name="height">高</string>
+    <string name="blackwhitereverse">黑白反显</string>
+    <string name="underline">下划线</string>
+    <string name="light">稍淡</string>
+    <string name="darkness_standard">一般</string>
+    <string name="darkness_dark">很浓</string>
+    <string name="scaletimes_0">不放大</string>
+    <string name="bold">加粗</string>
+    <string name="underline1">1点下划线</string>
+    <string name="underline2">2点下划线</string>
+    <string name="textalign">对齐方式</string>
+    <string name="textalign_left">左对齐</string>
+    <string name="textalign_center">居中对齐</string>
+    <string name="textalign_right">右对齐</string>
+    <string name="scaletimes_width_0">宽不放大</string>
+    <string name="scaletimes_height_0">高不放大</string>
+    <string name="upsidedownprint">倒置打印</string>
+    <string name="turnright90">右转90度</string>
+    <string name="lineheight">行高</string>
+    <string name="rightspace">右间距</string>
+    <string name="barcode">条形码</string>
+    <string name="qrcode">二维码</string>
+    <string name="text">文本</string>
+    <string name="barcodetype">条码类型</string>
+    <string name="startorgx">起始位置</string>
+    <string name="barcodewidth">条码宽度</string>
+    <string name="barcodeheight">条码高度</string>
+    <string name="barcodefonttype">条码文本字体类型</string>
+    <string name="barcodefontposition">条码文本位置</string>
+    <string name="qrcodestartorgx">二维码起始位置</string>
+    <string name="qrcodetype">二维码类型</string>
+    <string name="qrcodewidth">二维码宽度</string>
+    <string name="errorcorrectionlevel">纠错等级</string>
+
+    <string name="not_connected">You are not connected to a device</string>
+    <string name="bt_not_enabled_leaving">Bluetooth was not enabled. Leaving Bluetooth Chat.</string>
+    <string name="title_connecting">connecting...</string>
+    <string name="title_connected_to">connected: </string>
+    <string name="title_not_connected">not connected</string>
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="10dp" >
+
+    <EditText
+        android:id="@+id/editTextInputMacAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:ems="10"
+        android:hint="在此输入蓝牙地址，形如01:23:45:67:89:AB"
+        android:inputType="text"
+        android:minLines="1" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/buttonConnectMacAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/editTextInputMacAddress"
+        android:text="连接指定蓝牙打印机" />
+
+</RelativeLayout>

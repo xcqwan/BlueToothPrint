@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8000ff"
+    android:padding="10dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp" >
+
+            <Button
+                android:id="@+id/btConnectPrinterMac"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:gravity="left|center"
+                android:paddingLeft="70dp"
+                android:text="连接指定打印机" />
+
+            <Button
+                android:id="@+id/btConnectPrinterPaired"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/btConnectPrinterMac"
+                android:gravity="left|center"
+                android:paddingLeft="70dp"
+                android:text="连接已配对打印机" />
+        </RelativeLayout>
+        <Button
+                android:id="@+id/btTranspond"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/btConnectPrinterMac"
+                android:gravity="left|center"
+                android:paddingLeft="70dp"
+                android:text="转发消息" />
+    </LinearLayout>
+
+</ScrollView>

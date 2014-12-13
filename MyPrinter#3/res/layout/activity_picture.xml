@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp" >
+
+    <TextView
+        android:id="@+id/textViewPaperSize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/radioGroupPaperSize"
+        android:layout_alignTop="@+id/radioGroupPaperSize"
+        android:gravity="center_vertical"
+        android:text="纸张宽度："
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupPaperSize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/textViewPaperSize"
+        android:contentDescription="纸张宽度"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/radioButton2Inch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2寸"
+            android:checked="true" />
+
+        <RadioButton
+            android:id="@+id/radioButton3Inch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3寸" />
+
+        <RadioButton
+            android:id="@+id/radioButton4Inch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4寸" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/buttonPrintPicture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/radioGroupPaperSize"
+        android:text="打印图片" />
+
+    <ImageView
+        android:id="@+id/imageViewPicture"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/buttonPrintPicture"
+        android:maxHeight="1920dp"
+        android:maxWidth="1080dp" />
+
+    
+
+</RelativeLayout>

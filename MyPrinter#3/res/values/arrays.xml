@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources>
+
+    <string-array name="darkness">
+        <item>稍淡</item>
+        <item>一般</item>
+        <item>很浓</item>
+    </string-array>
+    <string-array name="fontsize">
+        <item>标准字体</item>
+        <item>压缩字体</item>
+        <item>不指定</item>
+    </string-array>
+    <string-array name="textalign">
+        <item>左对齐</item>
+        <item>居中对齐</item>
+        <item>右对齐</item>
+    </string-array>
+    <string-array name="scaletimes_width">
+        <item>宽不放大</item>
+        <item>放大1倍</item>
+        <item>放大2倍</item>
+        <item>放大3倍</item>
+        <item>放大4倍</item>
+        <item>放大5倍</item>
+        <item>放大6倍</item>
+    </string-array>
+    <string-array name="scaletimes_height">
+        <item>高不放大</item>
+        <item>放大1倍</item>
+        <item>放大2倍</item>
+        <item>放大3倍</item>
+        <item>放大4倍</item>
+        <item>放大5倍</item>
+        <item>放大6倍</item>
+    </string-array>
+    <string-array name="scaletimes_width_max2">
+        <item>宽不放大</item>
+        <item>放大1倍</item>
+    </string-array>
+    <string-array name="scaletimes_height_max2">
+        <item>高不放大</item>
+        <item>放大1倍</item>
+    </string-array>
+    <string-array name="barcodestr">
+        <item>123456789012</item>
+        <item>023456000089</item>
+        <item>023456000089</item>
+        <item>02345600</item>
+        <item>02345600</item>
+        <item>02345600</item>
+        <item>234560</item>
+        <item>*234560*</item>
+        <item>*234560*</item>
+    </string-array>
+    <string-array name="barcodetype">
+        <item>UPC A码</item>
+        <item>UPC E码</item>
+        <item>EAN 13码</item>
+        <item>EAN 8码</item>
+        <item>CODE 39码</item>
+        <item>ITF码</item>
+        <item>CODEBAR码</item>
+        <item>CODE 93码</item>
+        <item>CODE 128码</item>
+    </string-array>
+    <string-array name="barcodestartorgx">
+        <item>不缩进</item>
+        <item>缩进1个字符</item>
+        <item>缩进2个字符</item>
+        <item>缩进3个字符</item>
+        <item>缩进4个字符</item>
+        <item>缩进5个字符</item>
+        <item>缩进6个字符</item>
+        <item>缩进7个字符</item>
+        <item>缩进8个字符</item>
+        <item>缩进9个字符</item>
+        <item>缩进10个字符</item>
+        <item>缩进11个字符</item>
+        <item>缩进12个字符</item>
+        <item>缩进13个字符</item>
+        <item>缩进14个字符</item>
+        <item>缩进15个字符</item>
+        <item>缩进16个字符</item>
+    </string-array>
+    <string-array name="barcodewidth">
+        <item>条码宽度 2</item>
+        <item>条码宽度 3</item>
+        <item>条码宽度 4</item>
+        <item>条码宽度 5</item>
+        <item>条码宽度 6</item>
+    </string-array>
+    <string-array name="barcodeheight">
+        <item>条码高度24点</item>
+        <item>条码高度48点</item>
+        <item>条码高度72点</item>
+        <item>条码高度96点</item>
+        <item>条码高度120点</item>
+        <item>条码高度144点</item>
+        <item>条码高度168点</item>
+        <item>条码高度192点</item>
+    </string-array>
+    <string-array name="barcodefonttype">
+        <item>标准字体</item>
+        <item>压缩字体</item>
+        <item>不指定</item>
+    </string-array>
+    <string-array name="barcodefontposition">
+        <item>不打印条码文本</item>
+        <item>条码上方打印</item>
+        <item>条码下方打印</item>
+        <item>条码上、下方打印</item>
+    </string-array>
+    <string-array name="qrcodetype">
+        <item>QR码</item>
+    </string-array>
+    <string-array name="qrcodewidth">
+        <item>二维码宽度 2</item>
+        <item>二维码宽度 3</item>
+        <item>二维码宽度 4</item>
+        <item>二维码宽度 5</item>
+        <item>二维码宽度 6</item>
+    </string-array>
+    <string-array name="qrcodestartorgx">
+        <item>不缩进</item>
+        <item>缩进1个字符</item>
+        <item>缩进2个字符</item>
+        <item>缩进3个字符</item>
+        <item>缩进4个字符</item>
+        <item>缩进5个字符</item>
+        <item>缩进6个字符</item>
+        <item>缩进7个字符</item>
+        <item>缩进8个字符</item>
+        <item>缩进9个字符</item>
+        <item>缩进10个字符</item>
+        <item>缩进11个字符</item>
+        <item>缩进12个字符</item>
+        <item>缩进13个字符</item>
+        <item>缩进14个字符</item>
+        <item>缩进15个字符</item>
+        <item>缩进16个字符</item>
+    </string-array>
+    <string-array name="errorcorrectionlevel">
+        <item>纠错等级 1</item>
+        <item>纠错等级 2</item>
+        <item>纠错等级 3</item>
+        <item>纠错等级 4</item>
+    </string-array>
+    <string-array name="savebookmarks">
+        <item>保存在第一个位置</item>
+        <item>保存在第二个位置</item>
+        <item>保存在第三个位置</item>
+        <item>保存在第四个位置</item>
+        <item>保存在第五个位置</item>
+        <item>保存在第六个位置</item>
+        <item>保存在第七个位置</item>
+        <item>保存在第八个位置</item>
+    </string-array>
+
+</resources>
